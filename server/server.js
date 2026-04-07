@@ -69,7 +69,7 @@ io.on('connection', (socket) => {
     console.log(`Socket ${socket.id} joined room: ${room}`);
   });
   socket.on('disconnect', () => {
-    console.log(`Socket disconnected: ${socket.id}`);
+    console.log(`Socfbket disconnected: ${socket.id}`);
   });
 });
 
